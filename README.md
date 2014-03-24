@@ -24,4 +24,5 @@ https://developer.mozilla.org/en-US/Add-ons/Overlay_Extensions/XUL_School/Local_
 - IndexedDB: (using library localforage)
 
 https://developer.mozilla.org/en/docs/IndexedDB
+
 https://github.com/mozilla/localForage
