@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+  <head>
+    <meta charset="utf-8">
+    <title>Rss Feed</title>
+
+    <!-- App styles -->
+    <link rel="stylesheet" type="text/css" href="style/app.css">
+
+    <!-- Localization -->
+    <!--
+      We need a way to indicate where the resources are
+    -->
+    <link rel="resource" type="application/l10n" href="locales/locales.ini">
+    <!--
+      Let's import the l10n magic! This is available in /shared/js folder
+      of Gaia's repo.
+    -->
+    <script defer src="js/l10n.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/links.js"></script>
+    <script defer src="js/localforage.js"></script>
+  </head>
+
+  <body>
+    <a href="https://github.com/firefoxosedu/offline_app/" class="title">
+      Offline Example
+    </a>
+    <section class="panel">
+      <p data-l10n-id="hello"></p>
+      <article class="rssContainer">
+        <ul class="news">
+        </ul>
+      </article>
+      <button data-l10n-id="refresh" id="refreshButton">Refresh</button>
+    </section>
+    <a href="https://github.com/firefoxosedu/" class="footer-logo">
+    </a>
+  </body>
+</html>

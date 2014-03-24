@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  font-family: 'MozTT', sans-serif;
+  background: #FF4E00;
+}
+
+.panel {
+  padding: 3rem 2rem 2rem 2rem;
+  -moz-box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #00AACC;
+}
+
+a.title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 30rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 1rem 2rem;
+  -moz-box-sizing: border-box;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #00AACC;
+  background: white;
+  border-radius: 0 0 1rem 0;
+
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  padding: 1rem
+}
+
+p {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+button {
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  height: 4rem;
+  background: white;
+  color:  #FF4E00;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+button.offline {
+  pointer-events: none;
+  color: #c3c3c3
+}
+
+a.footer-logo {
+  background: white;
+  position: fixed;
+  top: 0;
+  right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(images/60.png);
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  background-position: center;
+  text-decoration: none;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.rssContainer {
+  height: calc(100% - 11rem);
+}

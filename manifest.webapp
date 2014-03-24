@@ -1,0 +1,22 @@
+{
+  "name": "OfflineApp",
+  "description": "Offline capable app",
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+  "appcache_path": "/manifest.appcache",
+  "developer": {
+    "name": "Borja Salguero & Francisco Jordano",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "locales": {
+    "en-US": {
+      "name": "OfflineApp",
+      "description": "FirefoxOS offline app showcase"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/icons/128.jpg",
+    "60": "/icons/60.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# version Mon Mar 24 2014 23:23:19 GMT+0000 (GMT)
+
+CACHE:
+index.html
+icons/60.jpg
+icons/128.jpg
+js/app.js
+js/l10n.js
+js/links.js
+js/localforage.js
+locales/basic_app.en-US.properties
+locales/locales.ini
+style/app.css
+style/images/128.png
+style/images/60.png
+
+NETWORK:
+*
+
+FALLBACK:
