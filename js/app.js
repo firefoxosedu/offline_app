@@ -17,7 +17,7 @@ window.addEventListener('localized', function localized() {
 
   refreshButton = document.getElementById('refreshButton');
   refreshButton.addEventListener('click', fetchRss);
-  if (navigator.onLine === 'offline') {
+  if (navigator.onLine !== 'online') {
     refreshButton.classList.add('offline');
   }
 
@@ -45,7 +45,7 @@ window.addEventListener('offline', function() {
 // Fetch and parse the RSS feed
 function fetchRss() {
   if (!navigator.onLine) {
-    localforage.get('cache', drawNews);
+    localforage.getItem('cache', drawNews);
     return;
   }
 
